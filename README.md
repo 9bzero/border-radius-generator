@@ -1,18 +1,26 @@
-# border-radius-generator
+# Border Radius Generator
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Visual CSS border-radius builder with per-corner control
+Visual CSS border-radius builder with individual control over all 8 corner values.
 
 ## Features
-- ⬛ Independent control per corner (TL, TR, BR, BL)
-- 🔗 Link/unlink all corners toggle
-- 👁️ Live preview
-- 📋 Copy CSS
+
+- Independent sliders for all 8 border-radius values (top-left-x, top-left-y, etc.)
+- Elliptical radius support (`border-radius: Xpx / Ypx`)
+- Preset shapes: pill, circle, leaf, wave
+- Live preview with adjustable element size
+- One-click CSS copy
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
